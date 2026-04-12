@@ -1,4 +1,4 @@
-import 'Livro.dart';
+import 'package:dart_web_application_1/models/livro.dart';
 
 class Biblioteca {
   List<Livro> livros = [];
@@ -38,7 +38,13 @@ class Biblioteca {
 
   // Remover livro
   void removerLivro(int id) {
-    livros.removeWhere((livro) => livro.id == id);
-    print('Livro removido com sucesso (se existia).');
+  var antes = livros.length;
+  livros.removeWhere((livro) => livro.id == id);
+
+  if (livros.length < antes) {
+    print('Livro removido com sucesso!');
+  } else {
+    print('Livro não encontrado.');
   }
+}
 }

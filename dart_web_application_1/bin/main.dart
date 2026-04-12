@@ -1,8 +1,8 @@
 
 
 import 'dart:io';
-import 'Biblioteca.dart';
-import 'Livro.dart';
+import 'package:dart_web_application_1/models/livro.dart';
+import 'package:dart_web_application_1/services/biblioteca.dart';
 
 void main() {
   Biblioteca biblioteca = Biblioteca();
