@@ -8,7 +8,7 @@ class CalculatorDisplay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      flex: 2, // Ocupa mais espaço que uma linha de botões
+      flex: 2,
       child: Container(
         alignment: Alignment.bottomRight,
         padding: const EdgeInsets.symmetric(vertical: 24.0, horizontal: 12.0),
