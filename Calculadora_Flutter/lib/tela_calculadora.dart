@@ -34,9 +34,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
         if (_operator == '+') result = _firstOperand + secondOperand;
         if (_operator == '-') result = _firstOperand - secondOperand;
         if (_operator == 'x') result = _firstOperand * secondOperand;
-        if (_operator == '/') result = secondOperand == 0 ? 0 : _firstOperand / secondOperand; // Evita divisão por zero
+        if (_operator == '/') result = secondOperand == 0 ? 0 : _firstOperand / secondOperand;
 
-        // Formata para remover o ".0" se for um número inteiro
         _currentValue = result.toStringAsFixed(result.truncateToDouble() == result ? 0 : 2);
         _history = '';
         _operator = '';
@@ -56,7 +55,6 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
         Color bgColor = Colors.grey[800]!;
         Color txtColor = Colors.white;
 
-        // Estilização diferenciada para operações e botão clear
         if (text == 'C') {
           bgColor = Colors.redAccent;
         } else if (['+', '-', 'x', '/', '='].contains(text)) {
@@ -84,7 +82,6 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       ),
       body: Column(
         children: [
-          // Exibe o histórico da operação
           Container(
             alignment: Alignment.centerRight,
             padding: const EdgeInsets.only(right: 12.0, top: 24.0),
@@ -93,10 +90,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               style: const TextStyle(color: Colors.grey, fontSize: 24),
             ),
           ),
-          // Componente de Display Reutilizável
           CalculatorDisplay(text: _currentValue),
           
-          // Linhas de botões
           _buildButtonRow(['7', '8', '9', '/']),
           _buildButtonRow(['4', '5', '6', 'x']),
           _buildButtonRow(['1', '2', '3', '-']),
