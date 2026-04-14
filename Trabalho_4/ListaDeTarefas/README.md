@@ -60,7 +60,7 @@ ref.read(taskProvider.notifier).removeTask(task.id);
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/todo_app.git
+git clone https://github.com/usuario/todo_app.git
 cd todo_app
 
 # 2. Instale as dependências
@@ -83,14 +83,9 @@ flutter run
 
 # Demonstração
 
-> *(Adicione aqui prints ou GIFs do app em funcionamento)*
+<img width="1920" height="1080" alt="{A8748C51-F07C-4C4C-A521-A6C3C8C20B0C}" src="https://github.com/user-attachments/assets/31e90c9a-f344-437d-8a97-3bb940dc1133" />
+
+<img width="1920" height="1080" alt="{CF231A1E-82EA-4AB9-B302-5693DC283E87}" src="https://github.com/user-attachments/assets/662c81f6-fef3-4324-a85b-5883314c9380" />
+
 
 ---
-
-# Integrantes
-
-| Nome | GitHub |
-|---|---|
-| Nome do integrante 1 | @usuario1 |
-| Nome do integrante 2 | @usuario2 |
-| Nome do integrante 3 | @usuario3 |
