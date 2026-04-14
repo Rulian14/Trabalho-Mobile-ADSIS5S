@@ -24,9 +24,9 @@ O projeto está organizado de forma a facilitar a compreensão e evolução do c
 
 ## 👥 Contribuição dos integrantes
 
-- **Gustavo Santos Chaikouski** – Trabalho 2
-- **Rayssa** – Trabalho 2
-- **João Los** – Trabalho 3
-- **Gustavo Kloster** – Trabalho 3
-- **Kayky Kmita** – Trabalho 4
-- **Jhonatann Rulian Roth** - Trabalho 4
+- **Gustavo Santos Chaicouski** – Trabalho 2 (https://github.com/GustavoChaicouski)
+- **Rayssa Araujo** – Trabalho 2 (https://github.com/RayssaAraujo12)
+- **João Vitor Los Moissa** – Trabalho 3 (https://github.com/JoaoLos01)
+- **Gustavo Kloster Jorge** – Trabalho 3 (https://github.com/GustavoKloster)
+- **Kayky Kmita** – Trabalho 4 (https://github.com/kkmita1)
+- **Jhonatann Rulian Roth** - Trabalho 4 (https://github.com/Rulian14)
