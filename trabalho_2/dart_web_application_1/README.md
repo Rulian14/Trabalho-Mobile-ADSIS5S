@@ -7,7 +7,7 @@ Quando você abre esta subpasta, apenas uma parte do README aparece — então s
 
 Clone o repositório:
 
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/Rulian14/Trabalho-Mobile-ADSIS5S
 
 Localize o arquivo(na pasta dart_web_application_1 que está dentro de Trabalho_2):
 
